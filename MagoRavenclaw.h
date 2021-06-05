@@ -7,10 +7,11 @@
 class MagoRavenclaw : public Mago
 {
 	public:
-		MagoRavenclaw();
+		MagoRavenclaw(int,int,int,int,int);
 		~MagoRavenclaw();
 		int getCreatividad();
 		void setCreatividad(int);
+		virtual string toString();
 	protected:
 		int creatividad;
 };

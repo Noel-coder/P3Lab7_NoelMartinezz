@@ -1,14 +1,16 @@
 #include "MagoHufflepuff.h"
 
-MagoHufflepuff::MagoHufflepuff()
+MagoHufflepuff::MagoHufflepuff(int _paciencia, int _astucia,int _inteligencia,int _lealtad, int _valentia):Mago(_astucia,_inteligencia, _lealtad, _valentia)
 {
-	srand(time(NULL));
-	paciencia = rand() % 20;
-	paciencia = paciencia + 80;
+	this->paciencia = _paciencia;
 }
 
 MagoHufflepuff::~MagoHufflepuff()
 {
+}
+
+string MagoHufflepuff::toString(){
+	
 }
 
 int MagoHufflepuff::getPaciencia(){

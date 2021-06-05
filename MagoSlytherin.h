@@ -7,10 +7,11 @@
 class MagoSlytherin : public Mago
 {
 	public:
-		MagoSlytherin();
+		MagoSlytherin(int,int,int,int,int);
 		~MagoSlytherin();
 		int getLiderazgo();
 		void setLiderazgo(int);
+		virtual string toString();
 	protected:
 		int liderazgo;
 };

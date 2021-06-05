@@ -7,10 +7,11 @@
 class MagoHufflepuff : public Mago
 {
 	public:
-		MagoHufflepuff();
+		MagoHufflepuff(int,int,int,int,int);
 		~MagoHufflepuff();
 		int getPaciencia();
 		void setPaciencia(int);
+		virtual string toString();
 	protected:
 		int paciencia;
 };

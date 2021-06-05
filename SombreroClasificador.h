@@ -8,7 +8,7 @@ class SombreroClasificador
 {
 	public:
 		SombreroClasificador();
-		ClaseHogwarts* clasificar_magos_nuevos (vector <Mago*>,int);
+		ClaseHogwarts* clasificar_magos_nuevos (vector <Mago*> listaMagos ,int);
 };
 
 #endif

@@ -1,14 +1,16 @@
 #include "MagoSlytherin.h"
 
-MagoSlytherin::MagoSlytherin()
+MagoSlytherin::MagoSlytherin(int _liderazgo, int _astucia,int _inteligencia,int _lealtad, int _valentia):Mago(_astucia,_inteligencia, _lealtad, _valentia)
 {
-	srand(time(NULL));
-	liderazgo = rand() % 20;
-	liderazgo = liderazgo + 80;
+	this->liderazgo = _liderazgo;
 }
 
 MagoSlytherin::~MagoSlytherin()
 {
+}
+
+string MagoSlytherin::toString(){
+	
 }
 
 int MagoSlytherin::getLiderazgo(){

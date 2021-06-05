@@ -7,7 +7,7 @@
 class MagoGryffindor : public Mago
 {
 	public:
-		MagoGryffindor();
+		MagoGryffindor(int,int,int,int,int);
 		~MagoGryffindor();
 		int getAtrevimiento();
 		void setAtrevimiento(int);

@@ -1,12 +1,11 @@
 #include "Mago.h"
 
-Mago::Mago()
+Mago::Mago(int _astucia, int _inteligencia, int _lealtad, int _valentia)
 {
-	srand(time(NULL));
-	astucia = rand() % 100;
-	inteligencia = rand() % 100;
-	lealtad = rand() % 100;
-	valentia = rand() % 100;
+	this->astucia = _astucia;
+	this->inteligencia = _inteligencia;
+	this->lealtad = _lealtad;
+	this->valentia = _valentia;
 }
 
 Mago::~Mago()
