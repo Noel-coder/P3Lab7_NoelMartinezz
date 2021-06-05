@@ -114,6 +114,7 @@ int main(int argc, char** argv) {
 			}
 		}
 	}
-
+	delete hogwarts;
+	delete sombrero;
 	return 0;
 }
